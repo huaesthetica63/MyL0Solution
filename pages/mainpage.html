@@ -1,0 +1,20 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Adelya Akulkina">
+  <meta name="description" content="Реализация простого GUI для осуществления запросов по ID">
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+  <link rel="stylesheet" type="text/css" href="/css/guistyle.css">
+  <title>Мой интерфейс (L0)</title>
+</head>
+<body>
+  <h1>Простой GUI для запросов</h1>
+  <form action="/result" method="post" name="OrderInfo">
+  <label for="order_uid">ID заказа для поиска</label><br>
+  <input type="text" placeholder="ID заказа" name="order_uid" id="order_uid"><br>
+  <input type="submit" value="Поиск!">
+  </form>
+</body>
+</html>
